@@ -27,6 +27,5 @@ from .schema import schema
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('blog/', include('blog.urls')),
-    path('reset_password/done', auth_views.PasswordResetDoneView.as_view(template_name='blog/password/reset_done.html'), name='password_reset_done')
     path('graphql/', csrf_exempt(GraphQLView.as_view(graphiql=True, schema=schema))),
 ]

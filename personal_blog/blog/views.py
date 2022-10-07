@@ -62,24 +62,6 @@ def register_view(request):
         
     return render(request, 'blog/register.html')
 
-def recover_password(request):
-    if request.method == 'POST':
-        form = PasswordResetForm(data=request.POST)
-
-        if form.is_valid():
-            form.send_mail(
-                subject_template_name= 'Reset Password',
-                email_template_name= 'Body test',
-                context= '',
-                from_email='soraiaoliveira094@gmail.com',
-                to_email=request.POST.get('email')
-            )
-            form.save()
-    else:
-        form = PasswordResetForm()
-    
-    return render(request, 'blog/reset_password.html', {'form': form})
-
 @login_required
 def new_post(request):
 
