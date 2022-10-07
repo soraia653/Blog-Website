@@ -1,0 +1,46 @@
+[
+    {
+        "model": "blog.post",
+        "pk": 2,
+        "fields": {
+            "title": "Mark Zuckerberg says Meta will freeze hiring and cut costs",
+            "slug_title": "mark-zuckerberg-says-meta-will-freeze-hiring-and-cust-costs",
+            "published_date": "2022-09-30 16:54",
+            "author": 1,
+            "body": "After a decade of explosive growth, the company formerly known as Facebook is planning to trim down. Bloomberg reports that Meta CEO Mark Zuckerberg announced plans to freeze hiring and restructure some groups within the company Thursday in an internal all-hands call."
+        }
+    },
+    {
+        "model": "blog.post",
+        "pk": 3,
+        "fields": {
+            "title": "Truepill, a digital health unicorn, conducts fourth round of layoffs in 2022",
+            "slug_title": "truepill-digital-health-unicorn",
+            "published_date": "2022-09-30 16:54",
+            "author": 1,
+            "body": "Truepill, a platform that helps other companies offer diagnostics, telehealth services and prescriptions, has conducted its fourth layoff of the year."
+        }
+    },
+    {
+        "model": "blog.post",
+        "pk": 4,
+        "fields": {
+            "title": "SoftBank Vision Fund is reportedly laying off 30% of its workforce, or at least 150 employees",
+            "slug_title": "softbank-vision-fund",
+            "published_date": "2022-09-30 16:54",
+            "author": 1,
+            "body": "The Vision Fund, a venture capital arm of SoftBank, has launched a sweeping layoff process, cutting at least 30% of its workforce globally, or approximately 150 of the 500 employees, according to a report by Bloomberg."
+        }
+    },
+    {
+        "model": "blog.post",
+        "pk": 5,
+        "fields": {
+            "title": "GV aims to help build a company that can sniff out disease, literally",
+            "slug_title": "gv-amais-to-help",
+            "published_date": "2022-09-30 16:54",
+            "author": 1,
+            "body": "It’s a natural step for Wiltschko, who has a PhD in neurobiology from Harvard, where he studied how the brain processes odor. He didn’t wind up in this specific group accidentally, he suggests. It owes to a lifelong “obsession with scent and olfaction” that he came to study alongside Sandeep “Bob” Datta, a Harvard professor who has himself long focused with what happens after one’s sensory neurons pick up a scent."
+        }
+    }
+]

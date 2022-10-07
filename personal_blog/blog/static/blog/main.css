@@ -1,0 +1,62 @@
+body,
+html {
+    height: 100%;
+}
+
+/* NEW POST START */
+.main-area {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100% - 56px);
+    padding: 10px;
+}
+
+.new-title {
+    width: 100%;
+    text-align: center;
+    margin: 4% 0 4.5% 0;
+}
+
+.new-post-div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#div_id_title {
+    margin-bottom: 50px;
+}
+
+#div_id_body {
+    margin-bottom: 20px;
+}
+
+@media all and (min-width: 991px) {
+    .new-post-form {
+        min-width: 65%;
+    }
+}
+
+@media all and (max-width: 991px) {
+    .new-post-form {
+        min-width: 100%;
+    }
+}
+
+.button-div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* REGISTRATION PAGE START */
+.register-div {
+    display: flex;
+    justify-content: center;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    column-gap: 2rem;
+    min-width: 65%;
+}

@@ -1,0 +1,15 @@
+{% extends "blog/layout.html" %}
+{% load static %}
+
+{% block body %}
+<div id="all-posts">
+    <h1>All Posts</h1>
+</div>
+<div id="selected-post">
+</div>
+{% endblock %}
+{% block script %}
+<script src="{% static 'blog/main.js' %}"></script>
+{% endblock %}
+
+</html>
